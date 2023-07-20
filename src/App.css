@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.create-trip-form-container {
+  background-image: url('https://images.unsplash.com/photo-1516876430441-8d32b14f9a2d');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form content styles */
+.create-trip-form-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Add a semi-transparent white background */
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.create-trip-form-content h2 {
+  margin-bottom: 20px;
+}
+
+.create-trip-form-content label {
+  display: block;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.create-trip-form-content input,
+.create-trip-form-content button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.create-trip-form-content button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.create-trip-form-content button:hover {
+  background-color: #0056b3;
+}
+
+.opacity-shadow{
+  opacity: 0.8;
+  box-shadow: 3px 14px 27px;
+}
+
+.slight-shadow{
+  box-shadow: 0px 1px 3px;
+}
+
+.mt-10{
+  margin: 7rem!important;
+}
+
+.welcome{
+  background: #030f24!important;
+    color: white!important;
+}
+.m-0{
+  margin: 0 !important;
+}
+
+.welcome-shadow{
+  box-shadow: 7px 32px 36px black;
+}
+
+.imag-login{
+  width: 220px;
+  margin-left: 120px;
 }
