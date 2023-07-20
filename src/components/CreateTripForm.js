@@ -30,7 +30,7 @@ const CreateTripForm = () => {
     // Perform form submission logic here (e.g., API call or store in database)
     console.log(formData);
 
-    axios.post('http://localhost:4000/enquiry/create', {
+    axios.post('http://localhost:4000/api/enquiry/create', {
     ...formData
     })
     .then((response) => {
