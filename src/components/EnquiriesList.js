@@ -5,7 +5,7 @@ const EnquiriesList = () => {
   const [enquiries, setEnquiries] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(()=>{
-     axios.get('http://localhost:4000/enquiry').then(res=>{
+     axios.get('http://localhost:4000/api/enquiry').then(res=>{
       console.log(res.data)
       setEnquiries(res.data.data);
       return;
